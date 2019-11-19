@@ -1,3 +1,5 @@
+package ua.epam.homework2;
+
 import org.junit.Test;
 import ua.epam.homework2.TwoInts;
 
