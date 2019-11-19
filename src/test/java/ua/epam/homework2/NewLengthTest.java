@@ -1,9 +1,8 @@
 package ua.epam.homework2;
 
 import org.junit.Test;
-import ua.epam.homework2.NewLength;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class NewLengthTest {
     NewLength newLength = new NewLength();
@@ -11,7 +10,7 @@ public class NewLengthTest {
     int target = -1;
 
     @Test
-    public void shouldReturnNewLength(){
+    public void shouldReturnNewLength() {
         assertEquals(6, newLength.getNewLength(array, target));
     }
 }

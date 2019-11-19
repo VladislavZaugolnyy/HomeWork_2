@@ -1,9 +1,8 @@
 package ua.epam.homework2;
 
 import org.junit.Test;
-import ua.epam.homework2.TwoInts;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertArrayEquals;
 
 public class TwoIntsTest {
     TwoInts twoInts = new TwoInts();

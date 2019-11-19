@@ -1,7 +1,6 @@
 package ua.epam.homework2;
 
-import org.junit.Test;
-import ua.epam.homework2.Duplicates;
+import org.testng.annotations.Test;
 
 import static org.junit.Assert.*;
 

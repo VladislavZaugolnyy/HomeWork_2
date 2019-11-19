@@ -1,9 +1,8 @@
 package ua.epam.homework2;
 
 import org.junit.Test;
-import ua.epam.homework2.PlusOne;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertArrayEquals;
 
 public class PlusOneTest {
     PlusOne plusOne = new PlusOne();
@@ -14,8 +13,9 @@ public class PlusOneTest {
     public void shouldAdd1ToArrayThatRepresentsANumber() {
         assertArrayEquals(new int[]{1, 2, 4}, plusOne.plusOne(array));
     }
+
     @Test
-    public void uniqueCaseTest(){
-        assertArrayEquals(new int []{1,0,0,0}, plusOne.plusOne(uniqueCaseArray));
+    public void uniqueCaseTest() {
+        assertArrayEquals(new int[]{1, 0, 0, 0}, plusOne.plusOne(uniqueCaseArray));
     }
 }
