@@ -1,5 +1,7 @@
+package ua.epam.homework2;
+
 public class PlusOne {
-    public static int[] plusOne(int[] array) {
+    public int[] plusOne(int[] array) {
         for (int i = array.length - 1; i > -1; i--) {
             if (array[i] != 9) {
                 array[i] += 1;

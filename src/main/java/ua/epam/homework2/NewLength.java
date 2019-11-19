@@ -1,5 +1,7 @@
+package ua.epam.homework2;
+
 public class NewLength {
-    public static int getNewLength(int[] array, int number) {
+    public int getNewLength(int[] array, int number) {
         int index = 0;
         int newLength = array.length;
         while (index < newLength) {

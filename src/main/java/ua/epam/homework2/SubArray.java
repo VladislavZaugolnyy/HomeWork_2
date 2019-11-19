@@ -1,5 +1,7 @@
+package ua.epam.homework2;
+
 public class SubArray {
-    public static int getMinValueNumber(int[] array) {
+    public int getMinValueNumber(int[] array) {
         int minNumber = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] < minNumber) {
@@ -9,7 +11,7 @@ public class SubArray {
         return minNumber;
     }
 
-    public static int getMaxValueNumber(int[] array) {
+    public int getMaxValueNumber(int[] array) {
         int maxNumber = array[0];
         for (int i = 0; i < array.length; i++) {
             if (maxNumber < array[i]) {
@@ -19,7 +21,7 @@ public class SubArray {
         return maxNumber;
     }
 
-    public static int getSubArrayWithMaxSum(int[] array) {
+    public int getSubArrayWithMaxSum(int[] array) {
         int result = 0;
         if (getMaxValueNumber(array) >= 0) {
             int maxSumSoFar = 0;
